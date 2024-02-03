@@ -15,10 +15,15 @@ One of the primary objectives is to expand the reach of these artisanal products
 1️⃣ **Artisan Empowerment:** Register and showcase products with instructional videos in regional languages.
 
 2️⃣ **Cultural Showcase:** Explore and purchase authentic products by state and district, with QR-coded certificates for authenticity.
+
 3️⃣ **Global Reach:** Enhance export opportunities, contributing to India's economic growth.
+
 4️⃣ **Cultural Awareness:** Dive into rich cultural content to deepen appreciation for India's traditions.
+
 5️⃣ **Seamless Interaction:** Connect with artisans, fostering trust and relationships.
+
 6️⃣ **Multilingual Support:** Inclusive and accessible to a global audience.
+
 7️⃣ **Sustainable Supply Chain:** Embrace ethical practices for fair compensation.
 
 ## 🚀 Business Model
