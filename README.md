@@ -1,8 +1,8 @@
-# Fbonaki - Bharat-Heritage (Heritage & Culture)
+# Fibons - Bharat-Heritage (Heritage & Culture)
 
 ## 📝 Project Description
 
-Fbonaki's Bharat-Heritage is a pioneering web-based platform that serves as a digital marketplace, designed to celebrate and preserve India's diverse cultural heritage. Our primary goal is to empower and uplift the numerous talented artisans across India by bridging the gap between their craftsmanship and global recognition. 🎨
+Fibons Bharat-Heritage is a pioneering web-based platform that serves as a digital marketplace, designed to celebrate and preserve India's diverse cultural heritage. Our primary goal is to empower and uplift the numerous talented artisans across India by bridging the gap between their craftsmanship and global recognition. 🎨
 
 Through this platform, artisans can register and effortlessly showcase their products, supported by instructional videos available in various regional languages. This initiative not only aims to provide visibility for artisans but also ensures that their artistry is preserved and appreciated worldwide.
 
