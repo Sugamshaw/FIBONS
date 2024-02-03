@@ -13,6 +13,7 @@ One of the primary objectives is to expand the reach of these artisanal products
 ## ✨ Key Features
 
 1️⃣ **Artisan Empowerment:** Register and showcase products with instructional videos in regional languages.
+
 2️⃣ **Cultural Showcase:** Explore and purchase authentic products by state and district, with QR-coded certificates for authenticity.
 3️⃣ **Global Reach:** Enhance export opportunities, contributing to India's economic growth.
 4️⃣ **Cultural Awareness:** Dive into rich cultural content to deepen appreciation for India's traditions.
