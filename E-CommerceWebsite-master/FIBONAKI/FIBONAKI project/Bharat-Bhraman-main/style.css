@@ -1,0 +1,303 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+h1{
+    font-family: 'Manrope', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+  }
+/*========================Nav Bar=========================*/
+.nav-bar {
+    display: flex;
+    /* flex-flow: row wrap; */
+    width: 100%;
+    height: 90px;
+    background-color: #071952;
+    /* box-shadow: 3px 3px 10px lightslategray; */
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  
+  .logo img{
+    height: 200px;
+    width: auto;
+  }
+
+  ul.menu {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    flex: 1;
+    list-style-type: none;
+    font-size: 16px;
+    /* font-weight: bold; */
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: inline; /* Display items horizontally */
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+  
+  .menu li a:hover {
+    color: orange;
+    text-decoration: underline;
+  }
+
+
+  /* .home-pic{
+    width: auto;
+    height: 350px;
+    background-color: #ec5858;
+  } */
+  .home-pic{
+    margin: 0;
+    padding: 0;
+    background-color: #071952;
+    color: #fff;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  sans-serif;
+}
+
+/* Style for the search container */
+.search-container {
+  position: relative;
+  margin: 20px;
+}
+
+/* Style for the search input */
+#search {
+  margin-top: 0px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for the box that covers the search bar */
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: none; /* Initially hidden */
+  z-index: 1; /* Place it above the search bar */
+}
+
+.animated-text{
+    font-size: 50px;
+    font-weight: 800;
+    min-width: 300px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Namaste";
+    /*color: #ff7f50;*/color: orange;
+    animation: words 26s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #071952;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .6s infinite, typing 25.5s steps(25) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+        0% {
+        content: "Namaste";
+    }
+    10% {
+        content: "नमस्ते";
+    }
+    20% {
+        content: "নমস্কার";
+    }
+    30% {
+        content: "నమస్కారం";
+    }
+    40% {
+        content: " வணக்கம்";
+    }
+    50% {
+        content: "નમસ્તે";
+    }
+    60% {
+        content: "ನಮಸ್ತೆ";
+    }
+    70% {
+        content: "నమస్కారం";
+    }
+    80% {
+        content: "नमस्कार";
+    }
+    90% {
+        content: "നമസ്കാരം";
+    }
+    100% {
+        content: "ਸਤ ਸ੍ਰੀ ਅਕਾਲ";
+    }
+}
+
+@keyframes typing {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+        width: 0;
+    }
+      4.95%, 14.95%, 24.95%, 34.95%, 44.95%, 54.95%, 64.95%, 74.95%, 84.95%, 94.95% {
+        width: calc(100% + 9px);
+    }
+}
+
+
+  
+
+  /* search by states */
+
+  .states{
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .places-to-visit{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .places-to-visit input[type=text] {
+    margin-left: 500px;
+    margin-top: 25px;
+    padding: none;
+    border: 2px;
+    font-size: 17px;
+  }
+
+  .states h1 {
+    font-size: 300%;
+    color: #000000;
+  }
+
+  .statesImgs1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  .statesImgs1 a{
+    color: #000000;
+  }
+  .state-card{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+
+  .statesImgs1 img{
+    width: 200px;
+    height: 120px;
+    border-radius: 5%;
+  }
+  .statesImgs1 .state-card:hover {
+    box-shadow: 3px 3px 10px lightsteelblue;
+    transform: scale(1.005);
+  }
+  
+
+  /* ending-part */
+
+  .demo{
+    height: 250px;
+    background-color: #071952;
+  }
+
+
+.logo-ending{
+  display: flex;
+}
+.logo-ending img{
+  width: 250px;
+  
+}
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    flex-basis: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 150px;
+
+}
+
+.a1 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* .social {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid black;  
+}
+
+.social a {
+  color: #000000;
+} */
